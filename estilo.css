@@ -1,0 +1,273 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+	.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #58B19F;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo > img {
+	width: 140px;
+	margin: 5px;
+
+	margin-left: 15px;
+}
+
+nav > div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+nav > div > a {
+	text-decoration: none;
+	font-size: larger;
+	color: #dff9fb;
+}
+
+nav > div > a:hover{
+	color: #78e08f;
+}
+
+.banner{
+	width: 180%;
+	height: 750px;  
+}
+
+.banner > img {
+	width: 100%;
+	max-height: 750px;
+}
+
+.slogan{
+	font-size: 40px;
+	color: lightgreen;
+	position: absolute;
+	top: 51%;
+	left: 40%;
+}
+
+.polpas{
+	background-color: #F8EFBA;
+	padding: 30px;
+}
+
+.secaoFrutas{
+	background-color: #F8EF8A;
+	padding: 30px;
+}
+
+.secaoMudas{
+	padding: 30px;
+	background-color: #dfe6e9;
+}
+
+.sobre{
+	padding: 30px;
+	background-color: #03A64A;
+}
+
+.sabor, .frutas, .mudas{
+	min-height: 300px;
+	min-width: 250px;
+	padding: 15px;
+}
+
+center > div {
+	color: orange;
+}
+
+center > h1 {
+	color: green;
+	font-size: 35px;
+}
+
+.s01{
+	background-image: url(../images/Graviola.jpg);
+}
+
+.s02{
+	background-image: url(../images/Caju.png);
+}
+
+.s03{
+	background-image: url(../images/Maracujá.png);
+}
+
+.s04{
+	background-image: url(../images/Acerola.png);
+}
+
+.s05{
+	background-image: url(../images/Uva.png);
+}
+
+.s06{
+	background-image: url(../images/Tamarindo.jpg);
+}
+
+.s07{
+	background-image: url(../images/Goiaba.png);
+}
+
+.s08{
+	background-image: url(../images/Manga.png);
+}
+
+.saborRows, .rowfrutas, .mudasRow{
+	display: flex;
+	flex-direction: row;
+}
+
+.s01, .s08{
+	flex: 2;
+}
+.s02, .s03, .s04, .s05, .s06, .s07{
+	flex: 1;
+}
+
+.s01, .s02, .s03, .s04, .s05, .s06, .s07, .s08, .f01, .f02, .f03, .m01, .m02, .m03{
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	font-size: x-large;
+	font-weight: bolder;
+	margin: 10px;
+	color: purple; 
+}
+
+.f01{
+	background-image: url(../images/Banana.png);
+}
+
+.f02{
+	background-image: url(../images/Guaraná.jpg);
+}
+
+.f03{
+	background-image: url(../images/Mamão.jpg);
+}
+
+.f01, .f02, .f03, .m01, .m02, .m03, .missao, .visao, .valores{
+	flex: 1;
+}
+
+.m01{
+	background-image: url(../images/Muda_graviola.jpg);
+}
+
+.m02{
+	background-image: url(../images/Mudas_goiaba.jpg);
+}
+
+.m03{
+	background-image: url(../images/Mudas_maracujá.jpg);
+}
+
+.descricao{
+	text-align: center;
+	font-size: 20px;
+}
+
+.descricao > h2{
+	color: green;
+	margin: 10px;
+}
+
+.descricao > h2{
+	color: orange;
+	margin: 10px;
+}
+
+.descricao > div{
+	margin: 10px;
+}
+
+.missaoVisaoValores{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.missao, .visao, .valores{
+	/*border: 1px solid blue;*/
+	padding: 10px;
+	height: 200px;
+	min-width: 300px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.missao . h2, .visao > h2, .valores > h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: green;
+}
+
+hr{
+	width: 15%;
+	margin: auto;
+	margin-bottom: 15px;
+	height: 2px;
+	background-color: gray;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+	flex-wrap: wrap;
+	font-size: 20px;
+}
+
+.rodape > .col-01, .rodape > .col-02, .rodape > .col-03{
+	flex: 1;
+	height: 350px;
+	text-align: center;
+	min-width: 300px;
+}
+
+.rodape > .col-01 > img, .rodape > .col-01 > p, .rodape > .col-02 > p{
+	margin-bottom: 15px;
+}
+
+.rodape > .col-02 > h2{
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+
+.subRodape{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	height: 50px;
+	background-color: block;
+	color: white;
+	font-size: 18px;
+}
+
+.subRodape > col-02 > a{
+	text-decoration: none;
+	margin: 5px;
+}
